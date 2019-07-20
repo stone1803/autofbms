@@ -6,7 +6,7 @@ import time
 from twilio.rest import Client
 import requests
 def autsendfb():
-    client = Client('0941946655', 'HongPhuc@@1109')
+    client = Client('0941946655', '')
     print("Own id: {}".format(client.uid))
     print('Ket noi auto thanh cong')
     noiDUng = tumoi()
